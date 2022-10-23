@@ -1,4 +1,4 @@
-# miniature-funicular
+# node-app-template
 
 ## Use Docker
 
