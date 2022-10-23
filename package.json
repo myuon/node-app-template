@@ -8,6 +8,6 @@
     "concurrently": "^7.5.0"
   },
   "scripts": {
-    "start": "concurrently \"yarn workspace web dev\" \"yarn workspace server start\""
+    "dev": "concurrently \"yarn workspace web dev\" \"yarn workspace server dev\""
   }
 }
