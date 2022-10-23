@@ -5,11 +5,13 @@
   "license": "MIT",
   "dependencies": {
     "koa": "^2.13.4",
-    "koa-proxy": "^1.0.0-alpha.3"
+    "koa-proxy": "^1.0.0-alpha.3",
+    "koa-static": "^5.0.0"
   },
   "devDependencies": {
     "@types/koa": "^2.13.5",
     "@types/koa-proxy": "^1.0.4",
+    "@types/koa-static": "^4.0.2",
     "@typescript-eslint/eslint-plugin": "^5.40.1",
     "@typescript-eslint/parser": "^5.40.1",
     "eslint": "^8.26.0",
@@ -21,6 +23,7 @@
   },
   "scripts": {
     "dev": "nodemon --watch index.ts --exec \"yarn start\"",
+    "build": "tsc",
     "start": "tsx index.ts",
     "lint": "eslint .",
     "format": "eslint . --fix",

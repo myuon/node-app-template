@@ -8,6 +8,9 @@
     "concurrently": "^7.5.0"
   },
   "scripts": {
-    "dev": "concurrently \"yarn workspace web dev\" \"yarn workspace server dev\""
+    "dev": "concurrently \"yarn workspace web dev\" \"yarn workspace server dev\"",
+    "prebuild": "rm -rf dist",
+    "build": "yarn workspace web build && yarn workspace server build",
+    "start:prod": "NODE_ENV=production node dist/index.js"
   }
 }
