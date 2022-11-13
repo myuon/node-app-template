@@ -1,8 +1,11 @@
 import Koa from "koa";
+import logger from "koa-pino-logger";
 import * as path from "path";
 import { serveStaticProd } from "./src/middleware/serve";
 import { newRouter } from "./src/router";
 const app = new Koa();
+
+app.use(logger());
 
 app.use(
   serveStaticProd({
