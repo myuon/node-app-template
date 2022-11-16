@@ -1,10 +1,10 @@
-FROM node:16 as builder
+FROM node:19 as builder
 WORKDIR /app
 COPY . .
 RUN yarn install --frozen-lockfile
 RUN yarn build
 
-FROM node:16 as deps
+FROM node:19 as deps
 WORKDIR /app
 COPY . .
 RUN yarn install --frozen-lockfile --production
