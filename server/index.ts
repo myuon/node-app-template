@@ -11,6 +11,7 @@ app.use(
   serveStaticProd({
     path: path.resolve(__dirname, "..", "web"),
     excludePrefix: "/api",
+    fallbackForSpa: true,
   })
 );
 
