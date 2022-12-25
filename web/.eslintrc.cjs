@@ -19,6 +19,7 @@ module.exports = {
     },
     ecmaVersion: "latest",
     sourceType: "module",
+    project: "./tsconfig.json",
   },
   plugins: ["react", "@typescript-eslint", "css-reorder"],
   rules: {
@@ -30,6 +31,7 @@ module.exports = {
     // for emotion
     // cf: https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unknown-property.md#rule-options
     "react/no-unknown-property": ["error", { ignore: ["css"] }],
+    "@typescript-eslint/no-floating-promises": "error",
   },
-  ignorePatterns: [".eslintrc.js"],
+  ignorePatterns: [".eslintrc.cjs", "vite.config.ts"],
 };

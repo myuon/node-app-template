@@ -10,8 +10,11 @@ module.exports = {
   parser: "@typescript-eslint/parser",
   parserOptions: {
     sourceType: "module",
+    project: "./tsconfig.json",
   },
   plugins: ["@typescript-eslint"],
-  rules: {},
+  rules: {
+    "@typescript-eslint/no-floating-promises": "error",
+  },
   ignorePatterns: [".eslintrc.cjs"],
 };
