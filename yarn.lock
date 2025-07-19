@@ -699,13 +699,13 @@
     "@types/koa" "*"
 
 "@types/koa-pino-logger@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@types/koa-pino-logger/-/koa-pino-logger-3.0.1.tgz#ebb99ad691a3686913864e84e537b6f7fc36db13"
-  integrity sha512-KqGej3mNnP94KA8RBiSr4w0rqcQVUvInG6PjnGPIjKPex6iUWiVOL4c6UeoiUQYDMb/WQVZRmaC7dzPsev1IKw==
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@types/koa-pino-logger/-/koa-pino-logger-3.0.5.tgz#6ed5a364a649b51a8fa2016c63e7a71a894e99e8"
+  integrity sha512-gQuPV/npT9Mns95NNBF6WaHhQjydjhJxr6TCTssgm12ZyB9+mUImGcuaIQoEJQK0JdVFzVy+XbWE5qc28WCIdw==
   dependencies:
     "@types/koa" "*"
     "@types/pino" "6.3"
-    "@types/pino-http" "*"
+    "@types/pino-http" "<6"
 
 "@types/koa-router@^7.4.4":
   version "7.4.4"
@@ -758,10 +758,10 @@
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
-"@types/pino-http@*":
-  version "5.8.1"
-  resolved "https://registry.yarnpkg.com/@types/pino-http/-/pino-http-5.8.1.tgz#ebb194750ad2f9245c3028b5d2c4e6d64f685ba9"
-  integrity sha512-A9MW6VCnx5ii7s+Fs5aFIw+aSZcBCpsZ/atpxamu8tTsvWFacxSf2Hrn1Ohn1jkVRB/LiPGOapRXcFawDBnDnA==
+"@types/pino-http@<6":
+  version "5.8.4"
+  resolved "https://registry.yarnpkg.com/@types/pino-http/-/pino-http-5.8.4.tgz#c775d527fccdde3c055f9c3ac55c0975284c70f0"
+  integrity sha512-UTYBQ2acmJ2eK0w58vVtgZ9RAicFFndfrnWC1w5cBTf8zwn/HEy8O+H7psc03UZgTzHmlcuX8VkPRnRDEj+FUQ==
   dependencies:
     "@types/pino" "6.3"
 
