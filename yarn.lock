@@ -708,9 +708,9 @@
     "@types/pino-http" "*"
 
 "@types/koa-router@^7.4.4":
-  version "7.4.4"
-  resolved "https://registry.yarnpkg.com/@types/koa-router/-/koa-router-7.4.4.tgz#db72bde3616365d74f00178d5f243c4fce7da572"
-  integrity sha512-3dHlZ6CkhgcWeF6wafEUvyyqjWYfKmev3vy1PtOmr0mBc3wpXPU5E8fBBd4YQo5bRpHPfmwC5yDaX7s4jhIN6A==
+  version "7.4.10"
+  resolved "https://registry.yarnpkg.com/@types/koa-router/-/koa-router-7.4.10.tgz#56a731be1ce9be5eeab9c1c9123db824aad8a906"
+  integrity sha512-AWaxMElgFyuWtk0E+crAujPq8rntxHeS0zdT0Zbh3aQIBxjwjlgohVXitcpsl3HjYHzUW4re3V8XRjLnllw0Rw==
   dependencies:
     "@types/koa" "*"
 
